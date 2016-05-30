@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditBrowser", "RedditBrowser\RedditBrowser.csproj", "{A1124932-1702-48E8-A864-0C8BF5041997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{118BE2B0-CF1F-4061-8DCF-1A390B3EE963}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E2C19777-F00D-4F15-AD33-313163CE490B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\RedditBrowser-WAWS-dev.json = PublishScripts\Configurations\RedditBrowser-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1124932-1702-48E8-A864-0C8BF5041997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1124932-1702-48E8-A864-0C8BF5041997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1124932-1702-48E8-A864-0C8BF5041997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1124932-1702-48E8-A864-0C8BF5041997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2C19777-F00D-4F15-AD33-313163CE490B} = {118BE2B0-CF1F-4061-8DCF-1A390B3EE963}
+	EndGlobalSection
+EndGlobal
